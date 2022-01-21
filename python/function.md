@@ -255,3 +255,23 @@ zip
 lambda
 
 ![image-20220119193304370](function.assets/image-20220119193304370.png)
+
+
+
+(비교)
+
+![image-20220120112535343](function.assets/image-20220120112535343.png)
+
+
+
+![image-20220120130321510](function.assets/image-20220120130321510.png)
+
+
+
+![image-20220120131920453](function.assets/image-20220120131920453.png)
+
+
+
+![image-20220120132207701](function.assets/image-20220120132207701.png)
+
+![image-20220120143223680](function.assets/image-20220120143223680.png)
