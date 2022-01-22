@@ -73,33 +73,39 @@ print(cube(2))   # 1
 
 
 
-p.35~36
+* 기본 인자 값 (Default argument values) : 
 
-keyword arguments (호출)
+  **함수를 정의할 때,** 기본값을 지정하여 함수를 호출할 때 인자의 값을 설정하지 않도록하여, 정의된 것 보다 더 적은 개수의 인자들로 호출 될 수 있음
 
-Defaul arguments values (정의)
+  
+
+* 키워드 인자 (keyword arguments) : 
+
+  **함수를 호출할 때,** 키워드 인자를 활용하여 직접 변수의 이름으로 특정 인자를 전달할 수 있음
+
+  
+
+* 가변(임의) 키워드 인자 (Arbitrary Keyword Arguments) : *args, **kwargs
+
+* 예시
+
+​	1)
+
+![6](function.assets/image-20220119103753674.png)
 
 
 
-![image-20220119103753674](function.assets/image-20220119103753674.png)
-
-
+​	2)
 
 ![image-20220119104524243](function.assets/image-20220119104524243.png)
 
-저기서 father와 monster는 식별자
+​	father와 monster는 식별자
 
 
+
+​	3)
 
 ![image-20220119105057323](function.assets/image-20220119105057323.png)
-
-
-
-가변(임의) 키워드 인자(Arbitrary Keyword Arguments)
-
-*args
-
-**kwargs
 
 
 
@@ -107,11 +113,11 @@ Defaul arguments values (정의)
 
 
 
-![image-20220119104914417](function.assets/image-20220119104914417.png)
+![image-20220122222259988](function.assets/image-20220122222259988.png)
 
 
 
-
+* 예시
 
 ```python
 # 함수 선언
@@ -120,12 +126,6 @@ def qwer(a, b=1):   # b=1 기본 인자 값 설정
 # 함수 호출    
 qwer(30)            # a=30, b는 기본 인자 1로 나옴
 ```
-
-
-
-
-
-
 
 
 
