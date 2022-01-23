@@ -133,41 +133,33 @@ qwer(30)            # a=30, b는 기본 인자 1로 나옴
 
 
 
-함수는 가장 기본 : local scope
-
-블랙박스의 결과를 받고 싶으면 반환 값을 변수에 저장해서 사용하는 것!
-
-블랙박스 밖으로 결과를 주고 싶으면 return해야 함
-
-
+* 함수는 가장 기본 : local scope
+* 블랙박스의 결과를 받고 싶으면 반환 값을 변수에 저장해서 사용하는 것!
+* 블랙박스 밖으로 결과를 주고 싶으면 return해야 함
 
 * 변수 생명주기
 
-빌트인 scope
+  * 빌트인 scope
+  * 글로벌 scope ; .py일 동안
+  * 로컬 scope ; return하면 끝
 
-글로벌 scope  .py일 동안
+* 예시
 
-로컬 scope      return하면 끝
-
-
-
-![image-20220119164659301](function.assets/image-20220119164659301.png)
+  ![image-20220119164659301](function.assets/image-20220119164659301.png)
 
 
 
-LEGB 순서대로!
+* LEGB 순서대로!
 
 ![image-20220119112049357](function.assets/image-20220119112049357.png)
 
-어려워... 다시 보자
+
+
+* nonlocal : global 아님, local아님. 근처에 영향력
 
 
 
-nonlocal : global 아님, local아님. 근처에 영향력
 
-
-
-![image-20220119113756623](function.assets/image-20220119113756623.png)
 
 블랙박스에서 이름 찾아가는 과정 : LEGB
 
