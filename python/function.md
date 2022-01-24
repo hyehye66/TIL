@@ -155,39 +155,39 @@ qwer(30)            # a=30, b는 기본 인자 1로 나옴
 
 
 
+* 블랙박스에서 이름 찾아가는 과정 : LEGB
+* 이름 찾아서 쓸 수 있지만 값 변경 불가능.
+* 단, global, nonlocal 두 개는 값 변경 가능. but 블랙박스라는 개념을 깨게 됨(호출할 때마다 값 변경 가능할 수있다는 위험이 있으므로)
 * nonlocal : global 아님, local아님. 근처에 영향력
 
 
 
-
-
-블랙박스에서 이름 찾아가는 과정 : LEGB
-
-이름 찾아서 쓸 수 있지만 값 변경 불가능
-
-단, global, nonlocal 두 개는 값 변경 가능. but 블랙박스라는 개념을 깨게 됨(호출할 때마다 값 변경 가능할 수있다는 위험이 있으므로)
+## 함수 종류
 
 
 
-map
+### 1. map 
 
-map(함수이름, list)
-
-==>  통에 넣고
+map(함수이름, list)  ==>  통에 넣고
 
 
 
-zip(*iterable)
+### 2. zip(*iterable)
 
 
 
-lambda : 익명함수; 어떤 함수를 잠깐 쓰고 싶을 때
+### 3. lambda 
 
-예시)
+* 익명함수; 어떤 함수를 잠깐 쓰고 싶을 때
+* lambda 매개변수 : 표현식
+
+* 예시
+
+  1)
 
 ![image-20220119143116999](function.assets/image-20220119143116999.png)
 
-
+​		2)
 
 ```python
 #람다함수 예시
@@ -198,11 +198,19 @@ print(list(filter(odd, range(5))))
 print(list(filter(lambda n: n % 2, range(5))))
 ```
 
+
+
 ![image-20220119143523778](function.assets/image-20220119143523778.png)
 
 
 
-재귀 함수(recursive function)
+​		3)
+
+​	![image-20220119193304370](function.assets/image-20220119193304370.png)
+
+
+
+### 4. 재귀 함수(recursive function)
 
 자기 자신을 호출하는 함수
 
@@ -210,11 +218,9 @@ print(list(filter(lambda n: n % 2, range(5))))
 
 
 
-filter
+### 5. filter
 
 return 값이 True/False 구분 가능해야 함
-
-
 
 lambda 매개변수 : 표현식
 
@@ -246,7 +252,7 @@ zip
 
 lambda
 
-![image-20220119193304370](function.assets/image-20220119193304370.png)
+
 
 
 
