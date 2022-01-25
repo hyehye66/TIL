@@ -166,13 +166,17 @@ qwer(30)            # a=30, b는 기본 인자 1로 나옴
 
 
 
-### 1. map 
+### 1. map
 
-map(함수이름, list)  ==>  통에 넣고
+* map(함수이름, list)  ==>  통에 넣고
 
 
 
 ### 2. zip(*iterable)
+
+* 예시
+
+  ![image-20220120143223680](function.assets/image-20220120143223680.png)
 
 
 
@@ -212,17 +216,21 @@ print(list(filter(lambda n: n % 2, range(5))))
 
 ### 4. 재귀 함수(recursive function)
 
-자기 자신을 호출하는 함수
+* 자기 자신을 호출하는 함수
 
-** 1개 이상의 base case(종료되는 상황)가 존재하고, 수렴하도록 작성 **
+* ** 1개 이상의 base case(종료되는 상황)가 존재하고, 수렴하도록 작성 **
+
+* 예시
+
+  ![image-20220120131920453](function.assets/image-20220120131920453.png)
 
 
 
 ### 5. filter
 
-return 값이 True/False 구분 가능해야 함
+* return 값이 True/False 구분 가능해야 함
 
-lambda 매개변수 : 표현식
+
 
 
 
@@ -240,23 +248,9 @@ lambda 매개변수 : 표현식
 
 
 
-filter
 
 
-
-zip
-
-
-
-
-
-lambda
-
-
-
-
-
-(비교)
+* 비교 : 위치가 함수 선언인지, 호출인지에 따라
 
 ![image-20220120112535343](function.assets/image-20220120112535343.png)
 
@@ -266,10 +260,9 @@ lambda
 
 
 
-![image-20220120131920453](function.assets/image-20220120131920453.png)
+
 
 
 
 ![image-20220120132207701](function.assets/image-20220120132207701.png)
 
-![image-20220120143223680](function.assets/image-20220120143223680.png)
