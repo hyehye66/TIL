@@ -260,9 +260,5 @@ print(list(filter(lambda n: n % 2, range(5))))
 
 
 
-
-
-
-
 ![image-20220120132207701](function.assets/image-20220120132207701.png)
 
