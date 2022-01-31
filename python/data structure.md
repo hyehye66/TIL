@@ -17,18 +17,23 @@
 
 * .reverse() : 원본 자체를 뒤집음
 
-
-
 * 리스트
-* 셋
-
-순서 없음
+* 셋 ; 순서 없음
 
 * 딕셔너리
 
+* .pop(key[,default])
 
+  * key가 딕셔너리에 있으면 제거하고 해당 값을 반환/ 그렇지 않으면 default 반환
+  * default값이 없으면 KeyError
+  * .pop() : 
+    * list : 마지막 or index 삭제
+    * set : 랜덤(임의의) 삭제
+    * dictionary : key 삭제
 
-![image-20220124144524939](data structure.assets/image-20220124144524939.png)
+  * 예시
+
+  ![image-20220131195026987](data structure.assets/image-20220131195026987.png)
 
 
 
@@ -36,11 +41,11 @@
 
 * 메서드 : 문자열에서만 사용가능한 함수
 
-* 1.find(x)와 2. .index() 비교:
+* find(x)와 .index() 비교 :
 
-  값이 없으면 1. -1 반환 2. 오류 발생
-
-
+  값이 없으면 find(x)는  -1 반환, .index()는 오류 발생
+  
+  
 
 * 깊은 복사 :
 
