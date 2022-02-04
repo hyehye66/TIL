@@ -1,11 +1,18 @@
-![image-20220203094858795](css.assets/image-20220203094858795.png)
+* 요소 (element)
+  * br : 개행, hr : 수평선
+
+
+
+
+
+![image-20220203094858795](html.assets/image-20220203094858795.png)
 
 
 
 * og
 * DOM 트리
 
-![image-20220203095720928](css.assets/image-20220203095720928.png)
+![image-20220203095720928](html.assets/image-20220203095720928.png)
 
 
 

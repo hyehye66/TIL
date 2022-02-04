@@ -32,6 +32,10 @@ selector + 우선순위 중요!!!
 
 
 
+![image-20220204110443748](css.assets/image-20220204110443748.png)
+
+
+
 * 상속
 
   * text 관련 요소만 상속됨
@@ -47,6 +51,10 @@ selector + 우선순위 중요!!!
   * viewport : 브라우저의 화면 크기
 
 ![image-20220203162049296](css.assets/image-20220203162049296.png)
+
+
+
+![image-20220204111047720](css.assets/image-20220204111047720.png)
 
 
 
