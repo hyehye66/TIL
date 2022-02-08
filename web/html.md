@@ -34,7 +34,7 @@
 
 * 텍스트 요소
 
-![image-20220203112615523](css.assets/image-20220203112615523.png)
+![image-20220203112615523](html.assets/image-20220203112615523.png)
 
 
 
@@ -44,11 +44,11 @@
 
 
 
-![image-20220203124224263](css.assets/image-20220203124224263.png)
+![image-20220203124224263](html.assets/image-20220203124224263.png)
 
 
 
-![image-20220203124402949](css.assets/image-20220203124402949.png)
+![image-20220203124402949](html.assets/image-20220203124402949.png)
 
 
 
