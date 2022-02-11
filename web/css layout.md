@@ -68,3 +68,122 @@
 
     * 개별 아이템을 Cross axis 기준으로 정렬
     * 주의! 컨테이너에 적용하는 것 X => 개별 아이템에 적용
+
+
+
+
+
+20220211
+
+* 미디어 쿼리(@media)
+  * landscape: 가로모드(너비>높이)
+  * portrait: 세로 모드(너비<높이)
+  * only print: 프린트모드
+  * media type: all, print, screen, speech
+  * css 예시
+    * ![image-20220211092229385](css layout.assets/image-20220211092229385.png)
+    * ![image-20220211093033070](css layout.assets/image-20220211093033070.png)
+
+
+
+* 
+  * html예시
+    * ![image-20220211093847459](css layout.assets/image-20220211093847459.png)
+    
+  * class naming
+    * html![image-20220211095408309](css layout.assets/image-20220211095408309.png)
+    
+    * css![image-20220211095822934](css layout.assets/image-20220211095822934.png)
+    
+    * css![image-20220211095959553](css layout.assets/image-20220211095959553.png)
+    
+    * favicon
+    
+      ![image-20220211101703629](css layout.assets/image-20220211101703629.png)
+    
+    * awesome font![image-20220211102448450](css layout.assets/image-20220211102448450.png)
+    
+    * modal
+    
+      ![image-20220211110409069](css layout.assets/image-20220211110409069.png)
+
+​							x친 곳 값 동일해야 함. 네모박스 3 개 반드시 필요!!!
+
+* 
+  * as
+
+
+
+
+
+Web 정리
+
+* HTML
+
+  * DOM
+  * 시맨틱 태그
+  * 주요 태그와 속성
+    * 안나옴 : table, form, input
+
+* CSS
+
+  * 단위(크기, 속성)
+
+  * 선택자 및 우선순위
+
+  * 박스모델
+
+  * 인라인, 블록 요소 특징
+
+  * Position
+
+    * static
+    * relative
+    * absolute(out of flow)
+    * fixed(out of flow)
+    * sticky
+
+  * Float : 안나옴
+
+  * Flex
+
+    * align-content : 안나옴
+    * axis, container - item
+    * 각 속성
+
+    
+
+  ## 반응형 웹
+
+  * Bootstrap
+    * grid system
+    * breakpoint
+
+
+
+## 마크업
+
+* 각 태그별 속성
+  * 인라인, 블록
+  * `li` => list-style
+
+
+
+## 스타일링
+
+### 레이아웃
+
+어떤 display를 가지고 있는지 분석, Box model
+
+* Position
+  * 네모 위 네모 => absolute
+  * 브라우저 기준 => fixed, sticky
+
+* Flex
+* Bootstrap Grid System
+
+### 스타일
+
+* color
+* size
+* 각 태그별 속성
