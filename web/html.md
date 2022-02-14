@@ -52,11 +52,11 @@
 
 
 
-![image-20220203124505622](css.assets/image-20220203124505622.png)
+![image-20220203124505622](html.assets/image-20220203124505622.png)
 
 
 
-![image-20220203124554531](css.assets/image-20220203124554531.png)
+![image-20220203124554531](html.assets/image-20220203124554531.png)
 
 
 
@@ -68,11 +68,11 @@
 
 
 
-![image-20220203125435905](css.assets/image-20220203125435905.png)
+![image-20220203125435905](html.assets/image-20220203125435905.png)
 
 
 
-![image-20220203130344515](css.assets/image-20220203130344515.png)
+![image-20220203130344515](html.assets/image-20220203130344515.png)
 
 
 
@@ -82,7 +82,7 @@ mdn input 구글링~~
 
 
 
-![image-20220203133208863](css.assets/image-20220203133208863.png)
+![image-20220203133208863](html.assets/image-20220203133208863.png)
 
 
 
@@ -90,4 +90,20 @@ mdn input 구글링~~
 
 
 
-![image-20220203141132533](css.assets/image-20220203141132533.png)
+![image-20220203141132533](html.assets/image-20220203141132533.png)
+
+
+
+
+
+
+
+![image-20220214011554447](html.assets/image-20220214011554447.png)
+
+
+
+
+
+![image-20220214024623764](html.assets/image-20220214024623764.png)
+
+자식결합자는 바로 꽂음(>)
