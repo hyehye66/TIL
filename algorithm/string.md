@@ -12,7 +12,7 @@
 
 
 
-
+* brute-force
 
 
 
@@ -45,3 +45,9 @@
     * ![image-20220216165639738](string.assets/image-20220216165639738.png)
     * ![image-20220216165842705](string.assets/image-20220216165842705.png)
     * ![image-20220216165953415](string.assets/image-20220216165953415.png)
+
+
+
+* 문자열 반대로
+  * [::-1]
+  * reversed()
