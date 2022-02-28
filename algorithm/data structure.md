@@ -203,17 +203,21 @@
 
 
 * 큐
-  * FIFO(First In First Out)
-  * 삽입(enQueue)/삭제(deQueue)
+  * 큐의 뒤에서는 삽입만, 앞에서는 삭제만 이루어짐
+  * FIFO(First In First Out) 
+  * 주요 연산
+    * enQueue : 큐의 뒤쪽(rear 다음)에 원소를 삽입하는 연산
+    * deQueue : 큐의 앞쪽(front)에서 원소를 삭제하고 반환하는 연산
+    * Qpeek() : 큐의 앞쪽(front)에서 원소를 삭제 없이 반환하는 연산
   * front: 삭제된 위치/rear: 마지막으로 저장된 위치
   * 선형큐에서
-    * 공백 큐 : front == rear (초기상태일 땐 둘다 -1)
+    * 공백 큐 생성 : front == rear (초기상태일 땐 둘다 -1)
   * 
   * 버퍼
     * 데이터를 한 곳에서 다른 한 곳으로 전송하는 동안 데이터를 일시적으로 보관하는 메모리의 영역
     * 버퍼링: 버퍼를 채우는 동작
     * 버퍼의 자료구조 : 순서대로 입력/출력/전달되어야 하므로 FIFO방식의 자료구조인 큐가 활용됨
-
+  
 * BFS(Breadth First Search)
 
   * visited : 줄 섬
