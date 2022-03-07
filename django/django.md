@@ -44,3 +44,14 @@ BASE_DIR : 시작점을 최상위 폴더로 잡아줌
 
 
 
+
+
+
+
+
+
+![image-20220307200312408](django.assets/image-20220307200312408.png)
+
+
+
+![image-20220307200529531](django.assets/image-20220307200529531.png)
