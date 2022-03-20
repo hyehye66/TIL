@@ -1,19 +1,53 @@
 * 정적 웹 페이지
+
   * 서버에 미리 저장된 파일이 사용자에게 그대로 전달되는 웹 페이지
+
   * 모든 상황에서 모든 사용자에게 동일한 정보 표시
+
   * HTML, CSS, JavaScript로 작성됨
+
+    
+
 * 동적 웹 페이지
+
   * 웹 페이지에 대한 요청을 받은 경우 서버는 추가적인 처리 과정 이후 클라이언트에게 응답을 보냄
   * 서버 사이드 프로그래밍 언어(Python, Java, C++ 등)가 사용되며 파일을 처리하고 데이터베이스와의 상호작용이 이루어짐
 
 
 
 * Framework
-  * 프로그래밍에서 특정 운영체제를 위한 응용 프로그램 표준 구조를 구현하는 클래스와 라이브버리 모임
 
+  * 프로그래밍에서 특정 운영체제를 위한 응용 프로그램 표준 구조를 구현하는 클래스와 라이브러리 모임
 
+    
 
+* Web framework
 
+  * 웹 페이지를 개발하는 과정에서 겪는 어려움을 줄이는 것이 주 목적
+
+  * DB 연동, 템플릿 형태의 표준, 세션 관리, 코드 재사용 등의 기능 포함
+
+    
+
+* Framework Architecture
+
+  * MVC Design Pattern (model-view-controller)
+
+  * Django는 MTV Pattern
+
+    
+
+* MTV
+
+  * Model (MVC : Model)
+    * 응용프로그램의 데이터 구조를 정의하고 DB의 기록을 관리(추가, 수정, 삭제)
+  * Template (MVC : View)
+    * 파일의 구조나 레이아웃을 정의
+    * 실제 내용을 보여주는 데 사용(presentation)
+  * View (MVC : Controller)
+    * HTTP 요청을 수신하고 HTTP 응답을 반환
+    * Model을 통해 요청을 충족시키는데 필요한 데이터에 접근
+    * template에게 응답의 서식 설정을 맡김
 
 ![image-20220302125208497](django.assets/image-20220302125208497.png)
 
