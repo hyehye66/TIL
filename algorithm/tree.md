@@ -105,6 +105,8 @@ print(tree[1])
   # 최대 100개의 정수
   # 최대힙
   
+  #=== def enq(n) 생략===
+  
   def deq(n):
   	global last
       tmp = tree[1]   # 루트의 key값
@@ -151,11 +153,15 @@ print(tree[1])
 
   
 
+### 완전이진트리에서의 순회
 
+```python
+def pre_order(v):
+    global last
+    if v <= last: # 마지막 정점번호 이내
+        print(v)  # visit(v)
+        pre_order(v*2)   # 왼쪽
+        pre_order(v*2+1)   # 오른쪽
+```
 
-
-
-
-
-
-
+* 일반트리와 완전이진트리의 차이점 : 일반트리는 일일이 다 가봐야 존재하는지 앎. 완전이진트리는 유추가능. 자식노드가 존재하면 반드시 left, right 순으로 존재하므로.
