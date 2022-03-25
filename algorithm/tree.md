@@ -161,7 +161,24 @@ def pre_order(v):
     if v <= last: # 마지막 정점번호 이내
         print(v)  # visit(v)
         pre_order(v*2)   # 왼쪽
-        pre_order(v*2+1)   # 오른쪽
+        pre_order(v*2+1)   # 오른쪽        
 ```
 
-* 일반트리와 완전이진트리의 차이점 : 일반트리는 일일이 다 가봐야 존재하는지 앎. 완전이진트리는 유추가능. 자식노드가 존재하면 반드시 left, right 순으로 존재하므로.
+* 일반트리와 완전이진트리의 차이점 : 일반트리는 일일이 다 가봐야 존재하는지 앎(리스트에 저장된 값을 가져오는 방식). 완전이진트리는 유추가능. 자식노드가 존재하면 반드시 left, right 순으로 존재하므로.
+
+cf. 일반트리에서의 순회
+
+```python
+def pre_order(v):
+    if v:  # 0번 정점이 없으므로
+        print(v)
+        pre_order(ch1[v])    # 리스트에 저장된 값을 가져오는 방식
+        pre_order(ch2[v])
+        
+def in_order(v):
+    if v:
+        in_order(ch1[v])
+        print(v)
+        in_order(ch2[v])             
+```
+
