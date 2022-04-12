@@ -60,7 +60,24 @@ MEDIA_ROOT는 STATIC_ROOT와 다른 경로로 지정해야 함
 
 로그인
 
+* `login(request, user, backend=None)`
+  * 현재 세션에 연결하려는 인증된 사용자가 있는 경우 login() 함수가 필요
+  * Django의 session framework를 사용하여 세션에 user의 ID를 저장(== 로그인)
+  * HttpRequest 객체와 User 객체가 필요
+* `get_user()`
+  * AuthenticationForm의 인스턴스 메서드
+  * user_cache : 인스턴스 생성 시, None으로 할당됨. 유효성 검사를 통과했을 때 로그인한 사용자 객체로 할당됨.
+
+
+
 로그아웃
+
+* session을 Delete하는 로직과 같음
+* 
+
+
+
+
 
 회원가입
 
