@@ -32,3 +32,29 @@
 
 
 cf. 모를 때는 'mdn' + '찾고자 하는 것' 구글링 
+
+
+
+선언식 vs 표현식
+
+![image-20220426102842066](JavaScript.assets/image-20220426102842066.png)
+
+![image-20220426102911136](JavaScript.assets/image-20220426102911136.png)
+
+
+
+
+
+![image-20220426103631979](JavaScript.assets/image-20220426103631979.png)
+
+![image-20220426103830211](JavaScript.assets/image-20220426103830211.png)
+
+![image-20220426104103318](JavaScript.assets/image-20220426104103318.png)
+
+![image-20220426104312818](JavaScript.assets/image-20220426104312818.png)
+
+Step 1만 필수. 나머지 선택.
+
+
+
+![image-20220426111528916](JavaScript.assets/image-20220426111528916.png)
