@@ -40,3 +40,29 @@
 > * 규모가 큰 (컴포넌트 중첩이 깊은) 프로젝트에서 효율적
 > * 각 컴포넌트에서는 중앙 집중 저장소의 state만 신경 쓰면 됨
 >   * 동일한 state를 공유하는  다른 컴포넌트들도 동기화 됨
+
+
+
+> ## Vuex를 이용한 관리
+>
+> ㅁ
+
+
+
+## Vuex Core Concepts
+
+![image-20220511093127675](vue3.assets/image-20220511093127675.png)
+
+파란색 박스 : Vuex
+
+
+
+action : 만능함수 but, state를 직접 변경하지 않음 (mutation이 함)
+
+action은 dispatch로/mutation은 commit으로 호출
+
+
+
+index.js : 기본파일, 대표파일
+
+![image-20220511094649634](vue3.assets/image-20220511094649634.png)
