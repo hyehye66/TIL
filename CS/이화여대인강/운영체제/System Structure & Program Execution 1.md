@@ -17,13 +17,13 @@
       - Memory보다 더 빠르면서 정보를 저장할 수 있는 공간
     - mode bit
       - 지금 CPU에서 실행되는 것이 운영체제인지, 사용자 프로그램인지 구분해준다.
-      - 1 사용자 모드 : 제한된 instruction만 CPU에서 실행할 수 있다. 사용자 프로그램 수행
-      - 0 모니터 모드 : 모든 instruction을 CPU에서 실행가능. OS 코드 수행
+      - `1` 사용자 모드 : 제한된 instruction만 CPU에서 실행할 수 있다. 사용자 프로그램 수행
+      - `0` 모니터 모드 : 모든 instruction을 CPU에서 실행가능. OS 코드 수행
     - interrupt line : CPU에 붙어있다. I/O device 작업을 받아온다.
   - Memory
   - DMA controller : I/O device의 interrupt 교통정리
   - timer 
-    - 정해진 시간이 흐른 뒤 운영체제에 제어권이 넘어가도록 인터럽트를 발생시킨다.
+    - 정해진 시간이 흐른 뒤 운영체제에 제어권이 넘어가도록 인터럽트를 발생시키는 하드웨어
     - 특정 프로그램이 CPU를 독점하는 것을 막는다. 
     - 할당된 시간이 다 되면 CPU에 interrupt를 건다. CPU는 하나의 instruction이 끝나면 interrupt line을 체크한다. interrupt 들어온 게 없으면 CPU는 다음 instruction 실행한다.
 - I/O device
