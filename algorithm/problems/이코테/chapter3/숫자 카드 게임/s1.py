@@ -1,0 +1,16 @@
+import sys
+sys.stdin = open("input.txt", "r")
+
+T = int(input())
+for tc in range(1, T+1):
+    N, M = map(int, sys.stdin.readline().split())
+    a = [list(map(int, sys.stdin.readline().split())) for _ in range(N)]
+    # print(a)
+
+    result = 0
+    for i in range(N):
+        temp = min(a[i])
+        if result < temp:
+            result = temp
+    print(f'#{tc} {result}')
+
